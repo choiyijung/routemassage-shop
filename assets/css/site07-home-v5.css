@@ -354,3 +354,103 @@
   .haru-home footer{padding:28px 18px 98px !important}
   .haru-home .bottom-nav{display:grid !important}
 }
+
+/* SITE07 HWASEONG PYEONGTAEK HUB START */
+.route-focus-hub{
+  margin:0 0 46px;
+  padding:42px;
+  border-radius:10px 30px 10px 30px;
+  background:
+    radial-gradient(circle at 84% 14%,rgba(232,191,139,.18),transparent 34%),
+    linear-gradient(135deg,#51402f 0%,#7a6045 56%,#3b3026 100%);
+  color:#fff;
+  box-shadow:0 24px 58px rgba(71,52,35,.18);
+}
+.route-focus-intro{
+  display:grid;
+  grid-template-columns:1.2fr .8fr;
+  gap:34px;
+  align-items:end;
+  margin-bottom:28px;
+}
+.route-focus-intro small{
+  font-size:10px;
+  font-weight:800;
+  letter-spacing:.17em;
+  color:#ead0ac;
+}
+.route-focus-intro h2{
+  margin:10px 0 0;
+  font-size:34px;
+  line-height:1.22;
+  letter-spacing:-.045em;
+}
+.route-focus-intro h2 em{
+  font-style:normal;
+  color:#f1d9b8;
+}
+.route-focus-intro p{
+  margin:0;
+  font-size:13px;
+  line-height:1.85;
+  color:rgba(255,255,255,.76);
+}
+.route-focus-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:12px;
+}
+.route-focus-card{
+  min-height:174px;
+  padding:24px;
+  display:flex;
+  flex-direction:column;
+  text-decoration:none;
+  color:#493b2e;
+  background:#f3ede5;
+  border-radius:8px 22px 8px 22px;
+  transition:.2s ease;
+}
+.route-focus-card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 14px 30px rgba(0,0,0,.14);
+  background:#fff;
+}
+.route-focus-card small{
+  color:#927153;
+  font-size:10px;
+  font-weight:800;
+  letter-spacing:.15em;
+}
+.route-focus-card strong{
+  display:block;
+  margin:17px 0 8px;
+  font-size:22px;
+  line-height:1.25;
+  letter-spacing:-.035em;
+}
+.route-focus-card span{
+  display:block;
+  color:#776b60;
+  font-size:13px;
+  line-height:1.7;
+}
+.route-focus-card b{
+  margin-top:auto;
+  padding-top:18px;
+  color:#795b40;
+  font-size:12px;
+}
+.route-main{background:#eadac7}
+.route-pyeongtaek{background:#eee4d7}
+.route-wide{background:#efe1cd}
+.route-sub{background:#f0ece5}
+
+@media(max-width:700px){
+  .route-focus-hub{padding:26px 18px;margin-bottom:30px}
+  .route-focus-intro{grid-template-columns:1fr;gap:15px}
+  .route-focus-intro h2{font-size:29px}
+  .route-focus-grid{grid-template-columns:1fr;gap:8px}
+  .route-focus-card{min-height:150px;padding:19px}
+}
+/* SITE07 HWASEONG PYEONGTAEK HUB END */
